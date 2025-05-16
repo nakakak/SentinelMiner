@@ -1,0 +1,34 @@
+ UTF-8编码
+ Windows version file for PyInstaller
+
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(1, 0, 0, 0),   文件版本号（比如 1.0.0.0）
+    prodvers=(1, 0, 0, 0),   产品版本号（比如 1.0.0.0）
+    mask=0x3f,
+    flags=0x0,
+    OS=0x40004,
+    fileType=0x1,
+    subtype=0x0,
+    date=(0, 0)
+  ),
+  kids=[
+    StringFileInfo([
+      StringTable(
+        '040904B0', [
+          StringStruct('CompanyName', '黄段王张李'),         公司名字
+          StringStruct('FileDescription', '数据挖掘与攻击检测'),     文件描述（程序介绍）
+          StringStruct('FileVersion', '1.0.0.0'),                 文件版本号
+          StringStruct('InternalName', 'digdec.exe'),               程序内部名字
+          StringStruct('LegalCopyright', '©2025 nasmo'),    版权信息
+          StringStruct('OriginalFilename', 'digdec.exe'),           原始文件名
+          StringStruct('ProductName', 'digdec'),         产品名
+          StringStruct('ProductVersion', '1.0.0.0')               产品版本号
+        ]
+      )
+    ]),
+    VarFileInfo([
+      VarStruct('Translation', [1033, 1200])
+    ])
+  ]
+)
